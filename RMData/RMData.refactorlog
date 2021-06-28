@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="d0de115e-21e4-4921-945c-9bd02d31f3ba" ChangeDateTime="06/28/2021 20:11:24">
+    <Property Name="ElementName" Value="[dbo].[Inventory].[ProductID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Inventory]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ProductName" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="a0939b87-4966-4a57-9d5e-e78962a10bd3" ChangeDateTime="06/28/2021 20:11:52">
+    <Property Name="ElementName" Value="[dbo].[Inventory].[ProductName]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Inventory]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ProductID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="d55969e9-518a-45cf-8183-5f4a66adbbbb" ChangeDateTime="06/28/2021 20:11:56">
+    <Property Name="ElementName" Value="[dbo].[Inventory].[Description]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Inventory]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Quantity" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f39fa155-f56e-406d-bd6f-f096d26d0be3" ChangeDateTime="06/28/2021 20:12:00">
+    <Property Name="ElementName" Value="[dbo].[Inventory].[RetailPrice]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Inventory]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="PurchasePrice" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="757e23ed-cd41-44f0-970f-e6e0f874a77e" ChangeDateTime="06/28/2021 20:12:05">
+    <Property Name="ElementName" Value="[dbo].[Inventory].[CreateDate]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Inventory]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="PurchaseDate" />
+  </Operation>
+</Operations>
